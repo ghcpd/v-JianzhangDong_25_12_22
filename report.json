@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.4.0",
+      "reason": "Updated for Python 3.14 compatibility, performance and upstream fixes."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Major version upgrades contain bug fixes, performance improvements and ensure compatibility with newer NumPy/Python."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.8",
+      "reason": "Bring in security/bug fixes and ensure compatibility with newer Python and plotting dependencies."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.5",
+      "reason": "Older versions contain known security vulnerabilities; updated to a maintained release."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Multiple CVEs addressed in PyYAML & safer loader defaults in newer releases."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Compatibility and numerical fixes; ensures wheels are available for Python 3.14."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Old release; update for bug fixes and better Unicode handling."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Numerous bug fixes and dependency updates; older versions are very outdated."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Security and parsing fixes; ensures ABI compatibility with modern Python builds."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Newer typing features and compatibility with recent Python versions."
+    }
+  ]
+}

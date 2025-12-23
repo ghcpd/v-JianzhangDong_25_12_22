@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.4.0",
+      "reason": "Update to a recent, secure release (wheel available for Python 3.14) and compatibility with newer scientific packages."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Select a pandas release with prebuilt wheels for Python 3.14 and compatibility with numpy 2.x."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.8",
+      "reason": "Select a matplotlib release compatible with numpy 2.x and Python 3.14."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Fixed multiple security issues in older requests releases; pin to a maintained secure release."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.1",
+      "reason": "Newer PyYAML release (wheel available) to avoid building from source and receive security fixes."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "",
+      "reason": "Removed from requirements: no compatible binary wheel available for Python 3.14 on Windows and building from source requires platform build tools."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Select a recent release with published wheels supporting Python 3.14 on Windows."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.1",
+      "reason": "Update for stability and performance fixes."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Use a modern release that provides prebuilt wheels for Python 3.14 on Windows."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.8.0",
+      "reason": "Old package is incompatible with modern typing features; update to a version compatible with Python 3.14."
+    }
+  ]
+}

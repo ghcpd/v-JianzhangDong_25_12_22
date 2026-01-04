@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.4.0",
+      "reason": "Old version incompatible with Python 3.14. Updated to latest stable version with full Python 3.14 wheel support."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Old version has compatibility issues with Python 3.14 and numpy 2.4.0. Updated to latest stable version."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.8",
+      "reason": "Old version has limited Python 3.14 support. Updated to latest stable version with wheel support."
+    },
+    {
+      "id": 4,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Old version incompatible with Python 3.14 and numpy 2.4.0. Updated to latest stable version."
+    },
+    {
+      "id": 5,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.5",
+      "reason": "Older version contains known security vulnerabilities (CVE-2023-32681). Updated to secure version."
+    },
+    {
+      "id": 6,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Version 5.3.1 has known security vulnerabilities. Updated to latest stable version."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Old version lacks Python 3.14 support and contains known bugs. Updated to latest stable version."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Very old version (2019) with limited Python 3.14 support. Updated to latest stable version."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Old version has compatibility issues with Python 3.14. Updated to latest stable version with wheel support."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Old version lacks modern type hints support for Python 3.14. Updated to latest stable version."
+    }
+  ]
+}
